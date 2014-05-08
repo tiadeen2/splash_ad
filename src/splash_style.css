@@ -1,0 +1,41 @@
+#container {
+	display: none;
+}
+#splash {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background: #000;
+	z-index: 999999;
+	display: table;
+}
+.splash-header {
+	background-color: #efefef;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	line-height: 32px;
+	color: #000;
+	font-size: 90%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.splash-content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	height: 100%;
+	vertical-align: middle;
+	display: table-cell;
+	width: 100%;
+	color: #fff;
+}
+.splash-content img {
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
